@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
    'FrameworkSample' => ['FrameworkSample/**/*.{storyboard,xib,png,jpeg,jpg}']
   }
   s.dependency "TwitterKit"
+  s.dependency "JSONModel"
 
   #s.source_files  = "FrameworkSample", "FrameworkSample/**/*.{h,m}"
   #s.resource_bundles = {
